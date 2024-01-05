@@ -1,5 +1,5 @@
 import unittest
-import re
+import nltk
 from src.main.lab import normalizationExercise,tokenizationExercise,findAllExercise
 
 class TestNLTKExercises(unittest.TestCase):
@@ -45,4 +45,5 @@ class TestNLTKExercises(unittest.TestCase):
         self.assertEqual(expectation,result)
         
 if __name__ == '__main__':
+    nltk.download('popular')
     unittest.main()
