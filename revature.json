@@ -1,0 +1,37 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        [
+          {
+            "methodName": "test_normalization_exercise",
+            "label": "Verify normalizationExercise uppercases and preserves letters",
+            "description": "Checks that normalizationExercise('kool kitties') returns 'KOOL KITTIES', demonstrating correct uppercasing for the lab’s normalization task."
+          },
+          {
+            "methodName": "test_normalization_exercise_2",
+            "label": "Verify normalizationExercise removes non-alphabetic characters",
+            "description": "Ensures that normalizationExercise('F@ll') strips symbols and returns 'FLL', matching the lab’s expected text-cleaning behavior."
+          },
+          {
+            "methodName": "test_normalization_exercise_3",
+            "label": "Verify normalizationExercise handles mixed characters and spacing",
+            "description": "Validates that normalizationExercise('Fr33z3r #@$ brr') removes special characters, preserves numbers, and uppercases the result into 'FR33Z3R  BRR'."
+          },
+          {
+            "methodName": "test_tokenization_exercise",
+            "label": "Verify tokenizationExercise outputs correct word and sentence tokens",
+            "description": "Checks that tokenizationExercise('Hello World!') produces both expected word tokens ['Hello', 'World', '!'] and sentence tokens ['Hello World!'], as required in the lab’s tokenization activity."
+          },
+          {
+            "methodName": "test_findAllExercise",
+            "label": "Verify findAllExercise returns correct semicolon-delimited matches",
+            "description": "Confirms that findAllExercise returns the exact expected semicolon-separated string of matched words, demonstrating proper regex extraction for this lab exercise."
+          }
+        ]
+      ]
+    }
+  ]
+}
